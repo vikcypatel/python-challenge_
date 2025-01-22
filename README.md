@@ -78,7 +78,7 @@ POST a new dummy post and write response to JSON file:
 ```
 $ ./restful.py post /posts -d '{title: "Treesha Rocks!", body: "It really really rocks.", userId: 1}' -o test.json
 ```
-# NOTE : Here you must wrappe json into double quotes ( "{ }")
+NOTE : Here you must wrappe json into double quotes ( "{ }")
 ```
   $ ./restful.py post /posts -d "{'title': 'title', 'body': 'body', 'userId': 'userIdf'}" -o sample.json
 ```
